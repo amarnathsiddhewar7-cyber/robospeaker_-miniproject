@@ -2,7 +2,7 @@ import os         # os module in Python is used to interact with the operating s
 
 
 while True:
-    text = input("Enter text (type 'stop' to exit): ")
+    text = input("Enter what you want to speak through robospeaker (type 'stop' to exit): ")
     
     if text == "stop":
         print("Robo Speaker stopped")
